@@ -1,0 +1,20 @@
+# GET http://localhost:4000/api/admin/get-users
+# Content-Type: application/json
+
+# GET http://localhost:4000/api/session/logout
+# Content-Type: application/json
+
+# POST http://localhost:4000/api/session/register?email=xyz@gmail.com&password=12345678
+# Content-Type: application/json
+
+# POST http://localhost:4000/api/session/login?email=xyz@gmail.com&password=12345678
+# Content-Type: application/json
+
+# POST http://localhost:4000/api/testUserRoute/register?email=xyz3@gmail.com&password=12345678
+# Content-Type: application/json
+
+POST  http://localhost:4000/api/testUserRoute/login?email=xyz3@gmail.com&password=12345678
+Content-Type: application/json
+
+# GET http://localhost:4000/api/testUserRoute/userList
+# Content-Type: application/json
